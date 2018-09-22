@@ -1,0 +1,8 @@
+language: php
+
+sudo: required
+dist: trusty
+
+script:
+  - chmod 777 deploy.sh
+  - ./deploy.sh
